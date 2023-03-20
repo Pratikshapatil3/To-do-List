@@ -1,0 +1,118 @@
+[
+    {
+
+ 
+        "id" : 1,
+        
+         
+        "title": "Assignment 1 Completion",
+        
+         
+        "description": "Make an application with CRUD function",
+        
+         
+        "due_date": "2 nd Oct 2022",
+        
+         
+        "due_time": "12:00 AM",
+        
+         
+        "status" : "open"
+        
+         
+        },
+
+        {
+
+ 
+            "id" : 2,
+            
+             
+            "title": "Assignment 2 Completion",
+            
+             
+            "description": "Make a Healthcare application for patient convinience",
+            
+             
+            "due_date": "30 th Oct 2022",
+            
+             
+            "due_time": "12:00 AM",
+            
+             
+            "status" : "open"
+            
+             
+            },
+
+            {
+
+ 
+                "id" : 3,
+                
+                 
+                "title": "Assignment 3 Completion",
+                
+                 
+                "description": "Make a Vaccine Distribution application ",
+                
+                 
+                "due_date": "10th Nov 2022",
+                
+                 
+                "due_time": "12:00 AM",
+                
+                 
+                "status" : "open"
+                
+                 
+                },
+
+                {
+
+ 
+                    "id" : 4,
+                    
+                     
+                    "title": "Assignment 4 Completion ",
+                    
+                     
+                    "description": "Career website with events  ",
+                    
+                     
+                    "due_date": "20 th Nov 2022",
+                    
+                     
+                    "due_time": "12:00 AM",
+                    
+                     
+                    "status" : "open"
+                    
+                     
+                    },
+
+                    {
+
+ 
+                        "id" : 5,
+                        
+                         
+                        "title": "Assignment 5 Completion",
+                        
+                         
+                        "description": "E-commerce site having electronics thing only",
+                        
+                         
+                        "due_date": "20 th Oct 2020",
+                        
+                         
+                        "due_time": "12:00 AM",
+                        
+                         
+                        "status" : "open"
+                        
+                         
+                        }
+
+]
+

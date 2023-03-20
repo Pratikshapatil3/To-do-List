@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>XMLHttpRequest</title>
+        <link rel="stylesheet" href="dist/main.css" />
+                <link rel="preconnect" href="https://fonts.googleapis.com">
+                <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+                <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, shrink-to-fit=no" />
+                <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+                 <meta charset="UTF-8">
+    </head>
+
+    <body>
+
+            <h1> To Do List</h1>
+            
+            <div id = "data" class="data">
+                <!--Added form elemet to add task entries-->
+                    <form id = "person" method="get" action="" name="person" class="formClass">   
+                          <fieldset class="field">
+                            <!--ID for form element-->
+                            <label for="ID">Id</label>
+                            <input id = "id" name = "id" type = "text" > <br><br>
+                            
+                             <!--title for form element-->
+                            <label for="title">Title</label>
+                            <input id = "title" name = "title" type = "text" > <br><br>
+
+                             <!--Description for form element-->
+                            <label for="description">Description</label>
+                            <input id = "description" name = "description" type = "text" > <br><br>
+                        
+                             <!--date for form element-->
+                            <label for="date">Due Date</label>
+                            <input type="date" name="date1" id="date1" > <br><br>
+                            
+                             <!--Time for form element-->
+                            <label for="date">Due Time</label>
+                            <input id="due_time" type="time" name="due_time" /> <br><br>
+                            
+                             <!--status list for form element-->
+                            <label for="status">Status</label>
+                            <select id = "status" name = "status"><br><br>
+                                    <option>Open</option>
+                                    <option>Closed</option>    
+                            </select>
+                            <br><br>
+                            <input id = "btn_add" type = "button" value = "Submit" onclick = "AddData();">
+                            </fieldset>   
+                    </form>
+                <!--Added button to add task-->
+                    <button id="btn" onclick="formHide()" class="addbtnn">Add Task</button>
+
+                    
+
+        </div>
+        <!--Creation of list-->
+        <ol id="list" class="listtt"></ol>
+        
+        </div>
+        <!--Calling external script-->
+        <script src="scripts/ajax.js"></script>
+
+    </body>
+</html>

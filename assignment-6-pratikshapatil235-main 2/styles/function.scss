@@ -1,0 +1,11 @@
+$background-color_1: #FFFAFA;
+$wt:bold;
+
+
+@mixin aligned {
+    font-size: 14px;
+	cursor: pointer;
+	text-align: center;
+	padding: 4px 8px;
+	 border-radius: 6px;
+  }

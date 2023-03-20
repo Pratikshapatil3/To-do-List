@@ -1,0 +1,78 @@
+$background-color_1: #FFFAFA;
+
+body {
+	
+    background-image:url("/image/todo-list-seamless-pattern-universal-background-66678083.jpg") ;
+}
+
+.data {
+	display: block;
+	
+}
+.listtt {
+	display: block;
+	padding-left: 600px;
+	margin-top: 50px;
+}
+h1 {
+	text-align: center;
+	font-weight: $wt;
+	
+}
+
+li {
+	font-size: 18px;
+	font-weight: $wt;
+	line-height: 40px;
+	
+}
+.field {
+	padding: 50px;
+	border: 1px solid pink;
+	background-color: $background-color_1;
+	padding-left: 140px;
+	width: 350px;
+	margin-left: 470px;
+}
+.addbtnn {
+	margin-left: 700px;
+	background-color: $background-color_1;
+	font-size: 14px;
+	cursor: pointer;
+	text-align: center;
+	padding: 8px 18px;
+	border-radius: 6px;
+}
+.viewbtn {
+	background-color: $background-color_1;
+	@include aligned;
+	 margin-left:10px !important;
+
+}
+.checkboxx{
+    width: 20px;
+     height: 20px;
+}
+
+.delete{
+	background-color: $background-color_1;
+	@include aligned;
+	margin-left:10px !important;
+	
+}
+
+.box{
+	text-decoration: line-through;
+	
+}
+
+.chng{
+	text-decoration: none;
+}
+
+.btnn{
+	background-color: $background-color_1;
+	@include aligned;
+	margin-left:10px !important;
+
+}
