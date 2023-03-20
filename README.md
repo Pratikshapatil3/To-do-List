@@ -2,7 +2,8 @@
 
 ## TO DO Application
 
-![Image of application](/image/Screen%20Shot%202022-10-19%20at%201.08.53%20PM.png)
+![image](https://user-images.githubusercontent.com/57887268/226394616-aeade54a-b80d-485b-a155-f5dbc6e441eb.png)
+
 
 ## Description-
 A simple to-do application for adding tasks .
